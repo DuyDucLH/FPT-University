@@ -53,13 +53,13 @@ public class CustomerMenu {
     }
     
     public static void loadDataFromFile() {
-//        String filePath;
+        String filePath;
         FileReader dataFile;
         BufferedReader buffRead;
         String readString;
         boolean isFileEmpty = true;
-        /*Auto add data*/ String filePath = "D:\\Specialized - SE1731\\Ki3_Spring 2023\\CSD201\\JavaCode\\CSD201_Sale_Management_System\\src\\Data\\CustomerData_SaleManagementSystem.txt";
-//        filePath = ValidationInput.inputString("Input path of file contain data: ");
+        // /*Auto add data*/ String filePath = "D:\\Specialized - SE1731\\Ki3_Spring 2023\\CSD201\\JavaCode\\CSD201_Sale_Management_System\\src\\Data\\CustomerData_SaleManagementSystem.txt";
+        filePath = ValidationInput.inputString("Input path of file contain data: ");
         System.out.println("");
         //Check file exist
         try {
