@@ -9,7 +9,7 @@ import Function.ValidationInput;
  *
  * @author duy20
  */
-public class Menu {
+public class Main {
     public static void main(String[] args) {
         while (true) {            
             //Display main menu
